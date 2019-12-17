@@ -7,7 +7,6 @@ public class AppMain : Main
 {
     protected override void StartApp()
     {
-        base.StartApp();
         Manager_ManagerModel.Instance.StartModel<ResourceModule>((mpdule) =>
         {
             Manager_ManagerModel.Instance.StartModel<LuaManagerModule>();
