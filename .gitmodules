@@ -1,0 +1,3 @@
+[submodule ".\\Assets\\u3d_fw"]
+	path = .\\Assets\\u3d_fw
+	url = https://gitee.com/liwei1dao/u3d_fw.git

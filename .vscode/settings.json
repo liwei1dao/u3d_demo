@@ -57,5 +57,7 @@
         "**/*.sln":true,
         "**/*.md":true,
         "Packages/":true,
+        "Log/":true,
+        "LICENSE":true,
     }
 }
