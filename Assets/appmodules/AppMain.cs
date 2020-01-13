@@ -9,7 +9,6 @@ public class AppMain : Main
     {
         Manager_ManagerModel.Instance.StartModule<ResourceModule>((mpdule) =>
         {
-            Manager_ManagerModel.Instance.StartModule<LuaManagerModule>();
         });
     }
 }
