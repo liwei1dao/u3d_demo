@@ -2,5 +2,8 @@
 
 public class CarDemoModule : ManagerContorBase<CarDemoModule>
 {
-    
+    public override void Load(params object[] agr)
+    {
+        base.Load(agr);
+    }
 }
