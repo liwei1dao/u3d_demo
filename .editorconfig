@@ -1,0 +1,4 @@
+﻿[*.cs]
+
+# UNT0011: ScriptableObject instance creation is not recommended
+dotnet_diagnostic.UNT0011.severity = none
